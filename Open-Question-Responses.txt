@@ -1,0 +1,36 @@
+Assignment 3 Responses
+Operating Systems
+Semester 1 5785
+
+Student 1:
+Student 2:
+
+----------------------------------------------------------------
+
+(calls) 1. (2 points)
+
+(calls) 2. (2 points)
+
+(calls) 3. (2 points)
+
+(calls) 4. (2 points)
+
+(calls) 5. (2 points) 
+
+(calls) 6. (2 points)
+
+(calls) 7.:
+
+  (i) execve
+
+ (ii) brk
+
+(iii) openat
+
+ (iv) mmap
+
+  (v) prlimit64
+
+ (vi) clone
+
+(vii) exit_group
