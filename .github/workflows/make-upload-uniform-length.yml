@@ -17,7 +17,7 @@ jobs:
       - name: uniform-length build
         run: make
       - name: Archive uniform-length
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: uniform-length
           path: uniform-length
@@ -29,10 +29,10 @@ jobs:
         run: ./uniform_length_tests.bat
       
       - name: Archive output test results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-outputs
-          path: *.txt
+          path: test*.txt
 
       - name: uniform-length debug build
         run: make debug
@@ -41,7 +41,7 @@ jobs:
         run: mv uniform-length uniform-length-debug
 
       - name: Archive uniform-length-debug
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: uniform-length-debug
           path: uniform-length-debug
